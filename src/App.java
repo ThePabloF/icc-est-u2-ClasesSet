@@ -1,22 +1,20 @@
 import java.util.Set;
 
+import controlers.ContactoController;
 import controlers.Sets;
 
 public class App {
     public static void main(String[] args) throws Exception {
     Sets setsito =  new Sets();
-
+    
     runHashSet(setsito);
+    runLinkedHashSet(setsito);
+    runTreeSet(setsito);
+    runTreeSetComparator(setsito);
+    runTreeSetComparatorDes(setsito);
 
-     runLinkedHashSet(setsito);
-
-     runTreeSet(setsito);
-
-     runTreeSetComparator(setsito);
-     
-     runTreeSetComparatorDes(setsito);
-
-
+     ContactoController contactoController = new ContactoController();
+    
     }
      public static void runHashSet (Sets setsito){
 
