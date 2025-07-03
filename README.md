@@ -30,5 +30,6 @@ Además, se han implementado comparadores personalizados para ordenar cadenas po
 Para compilar y ejecutar el proyecto:
 ![alt text](image.png)
 ![alt text](image-2.png)
+![alt text](image-3.png)
 
 
